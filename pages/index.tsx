@@ -125,7 +125,7 @@ const Home = () => (
             <DayTitle>Dag 10:</DayTitle>
             <Paragraph>
               Vandaag heeft Herman enorme honger en verwen je hem met een
-              feestmaal van 1 dl olie, 250 g bloem, 3 eieren, 1 eetlepel
+              feestmaal van 1 dl olie, 150 g bloem, 3 eieren, 1 eetlepel
               bakpoeder, 1 appel in stukjes, 1 zakje vanillesuiker, 200 g noten
               of rozijnen, 2 theelepels kaneel en 1 theelepel zout.
             </Paragraph>
