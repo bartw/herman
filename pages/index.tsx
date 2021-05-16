@@ -75,7 +75,7 @@ const Home = () => (
             <DayTitle>Dag 4:</DayTitle>
             <Paragraph>Herman heeft honger!</Paragraph>
             <Paragraph>
-              Geef hem 2 dl melk, 200 gr bloem en 250 gr suiker.
+              Geef hem 2 dl melk, 200 g bloem en 250 g suiker.
             </Paragraph>
           </Day>
           <Day>
@@ -110,7 +110,7 @@ const Home = () => (
             <DayTitle>Dag 9:</DayTitle>
             <Paragraph>Herman heeft weer honger!</Paragraph>
             <Paragraph>
-              Geef hem te eten: 2 dl melk, 200 gr bloem en 250 gr suiker.
+              Geef hem te eten: 2 dl melk, 200 g bloem en 250 g suiker.
             </Paragraph>
             <Paragraph>
               Dit is het moment dat Herman zich gaat voortplaten!
@@ -125,8 +125,8 @@ const Home = () => (
             <DayTitle>Dag 10:</DayTitle>
             <Paragraph>
               Vandaag heeft Herman enorme honger en verwen je hem met een
-              feestmaal van 1dl olie, 250 gr bloem, 3 eieren, 1 eetlepel
-              bakpoeder, 1 appel in stukjes, 1 zakje vanillesuiker, 200 gr noten
+              feestmaal van 1 dl olie, 250 g bloem, 3 eieren, 1 eetlepel
+              bakpoeder, 1 appel in stukjes, 1 zakje vanillesuiker, 200 g noten
               of rozijnen, 2 theelepels kaneel en 1 theelepel zout.
             </Paragraph>
             <Paragraph>
