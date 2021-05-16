@@ -6,21 +6,25 @@ const Paragraph = ({ children }: { children: ReactNode }) => (
 );
 
 const Day = ({ children }: { children: ReactNode }) => (
-  <h2 className="mt-6 font-semibold">{children}</h2>
+  <li className="rounded p-4 bg-gray-100 mt-4">{children}</li>
+);
+
+const DayTitle = ({ children }: { children: ReactNode }) => (
+  <h2 className="font-semibold">{children}</h2>
 );
 
 const Home = () => (
-  <div>
+  <div className="min-h-screen bg-gray-200 text-gray-900">
     <Head>
       <title>Herman</title>
       <meta name="description" content="Herman" />
       <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     </Head>
-    <div className="mx-auto max-w-screen-md p-4">
-      <header>
+    <div className="mx-auto max-w-screen-md p-6">
+      <header className="">
         <h1 className="font-semibold text-2xl">Herman</h1>
       </header>
-      <section className="mt-8">
+      <section className="mt-8 rounded p-4 bg-gray-100">
         <Paragraph>Maak kennis met Herman.</Paragraph>
         <Paragraph>
           Herman is een vriendschapskoek die niet te koop is, maar alleen
@@ -46,64 +50,64 @@ const Home = () => (
       </section>
       <section className="mt-8">
         <ul>
-          <li>
-            <Day>Dag 1:</Day>
+          <Day>
+            <DayTitle>Dag 1:</DayTitle>
             <Paragraph>
               Vandaag heb je Herman gekregen. Laat hem wennen aan zijn nieuwe
               omgeving en laat hem een beetje rusten.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 2:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 2:</DayTitle>
             <Paragraph>
               Roer Herman goed door, gebruik hiervoor een houten lepel. Herman
               houdt niet van metaal.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 3:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 3:</DayTitle>
             <Paragraph>
               Roer Herman een paar keer per dag goed door. Dat vindt Herman
               fijn.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 4:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 4:</DayTitle>
             <Paragraph>Herman heeft honger!</Paragraph>
             <Paragraph>
               Geef hem 2 dl melk, 200 gr bloem en 250 gr suiker.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 5:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 5:</DayTitle>
             <Paragraph>
               Roer Herman een paar keer per dag goed door. Daar houdt Herman
               van.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 6:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 6:</DayTitle>
             <Paragraph>
               Roer Herman een paar keer per dag goed door. Dat vindt Herman
               fijn.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 7:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 7:</DayTitle>
             <Paragraph>
               Roer Herman een paar keer per dag goed door. Daar wordt Herman
               luchtig van.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 8:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 8:</DayTitle>
             <Paragraph>
               Roer Herman een paar keer per dag goed door. Herman wil graag
               vertroeteld worden.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 9:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 9:</DayTitle>
             <Paragraph>Herman heeft weer honger!</Paragraph>
             <Paragraph>
               Geef hem te eten: 2 dl melk, 200 gr bloem en 250 gr suiker.
@@ -116,9 +120,9 @@ const Home = () => (
               een link naar deze website. Het 5de bakje begruik je om door te
               gaan naar dag 10.
             </Paragraph>
-          </li>
-          <li>
-            <Day>Dag 10:</Day>
+          </Day>
+          <Day>
+            <DayTitle>Dag 10:</DayTitle>
             <Paragraph>
               Vandaag heeft Herman enorme honger en verwen je hem met een
               feestmaal van 1dl olie, 250 gr bloem, 3 eieren, 1 eetlepel
@@ -132,7 +136,7 @@ const Home = () => (
               bakken.
             </Paragraph>
             <Paragraph>Geniet ervan!</Paragraph>
-          </li>
+          </Day>
         </ul>
       </section>
     </div>
